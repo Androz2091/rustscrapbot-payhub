@@ -16525,7 +16525,8 @@ be a descendant of the grid when it is being dragged.
   border: 3px solid #fff;
   max-width: 150px;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
+  border-radius: 20%;
 }
 
 .lockscreen-content .lock-box .user-name {
