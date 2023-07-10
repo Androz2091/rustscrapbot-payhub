@@ -162,13 +162,13 @@ sup {
 }
 
 a {
-  color: #009688;
+  color: #c73f2a;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #004a43;
+  color: #5c1207;
   text-decoration: underline;
 }
 
@@ -15893,7 +15893,7 @@ be a descendant of the grid when it is being dragged.
 }
 
 .material-half-bg .cover {
-  background-color: #009688;
+  background-color: #c73f2a;
   height: 50vh;
 }
 
