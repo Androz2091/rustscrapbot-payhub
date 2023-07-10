@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)https://pratikborsadiya.in/vali-admin/page-lockscreen.html -->
+<html data-lt-installed="true">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="./public/main.css" />
+    <!-- Font-icon css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./public/font-awesome.min.css"
+    />
+    <title>Lockscreen - Vali Admin</title>
+  </head>
+  <body class="pace-done">
+    <div class="pace pace-inactive">
+      <div
+        class="pace-progress"
+        data-progress-text="100%"
+        data-progress="99"
+        style="transform: translate3d(100%, 0px, 0px)"
+      >
+        <div class="pace-progress-inner"></div>
+      </div>
+      <div class="pace-activity"></div>
+    </div>
+    <section class="material-half-bg">
+      <div class="cover"></div>
+    </section>
+    <section class="lockscreen-content">
+      <div class="lock-box">
+        <img class="user-image" src="./public/stripe.png" />
+        <h4 class="text-center user-name">Invoice #[N/A]</h4>
+        <p class="text-center text-muted">
+          This is your invoice from Simon LEFORT EIRL.
+        </p>
+        <form
+          class="unlock-form"
+          action="https://pratikborsadiya.in/vali-admin/index.html"
+          data-bitwarden-watching="1"
+        >
+          <div class="form-group">
+            <label class="control-label"
+              >Pay Hub
+              <p style="font-weight: 300; margin: 0">
+                Choose the fastest and easiest payment means below.
+              </p>
+              <p style="font-weight: 300; margin: 0">
+                Price shown is the one you will pay, each service fees are
+                included.
+              </p></label
+            >
+          </div>
+          <div class="form-group btn-container">
+            <button
+              class="btn btn-primary btn-block"
+              style="margin-bottom: 10px"
+              id="credit-card"
+            >
+              <i class="fa fa-credit-card fa-lg"></i>Credit Card
+            </button>
+            <button
+              class="btn btn-primary btn-block"
+              style="margin-bottom: 10px"
+              id="bank"
+              data-toggle="popover"
+              data-placement="right"
+              title="Copy IBAN"
+              data-trigger="focus"
+              data-content="DE32 1001 1001 2620 8728 90"
+            >
+              <i class="fa fa-university fa-lg"></i>Bank transfer
+            </button>
+            <button
+              class="btn btn-primary btn-block"
+              style="margin-bottom: 10px"
+              id="fiverr"
+              data-toggle="popover"
+              data-placement="right"
+              title="Register & DM me"
+              data-trigger="focus"
+              data-content="Please send me a message at https://fiverr.com/androz2091 with your invoice ID."
+            >
+              <i class="fa fa-users fa-lg"></i>Fiverr
+            </button>
+            <button
+              class="btn btn-primary btn-block"
+              style="margin-bottom: 10px"
+              id="paypal"
+            >
+              <i class="fa fa-paypal fa-lg"></i>PayPal
+            </button>
+          </div>
+        </form>
+        <p>
+          <a href="#"
+            >Need help? Send me a message at smnlefort [at] gmail.com</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- Essential javascripts for application to work-->
+    <script src="./public/jquery-3.3.1.min.js"></script>
+    <script src="./public/popper.min.js"></script>
+    <script src="./public/bootstrap.min.js"></script>
+    <script src="./public/main.js"></script>
+    <!-- The javascript plugin to display page loading on top-->
+    <script src="./public/pace.min.js"></script>
+  </body>
+</html>
